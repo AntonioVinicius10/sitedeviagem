@@ -1,0 +1,141 @@
+
+
+/* Color Theme Swatches in Hex */
+.Viagem-1-hex { color: #2D4B73; }
+.Viagem-2-hex { color: #253c59; }
+.Viagem-3-hex { color: #99B4BF; }
+.Viagem-4-hex { color: #D9B70D; }
+.Viagem-5-hex { color: #BF8D30; }
+
+/* Color Theme Swatches in RGBA */
+.Viagem-1-rgba { color: rgba(44, 75, 114, 1); }
+.Viagem-2-rgba { color: rgba(37, 59, 89, 1); }
+.Viagem-3-rgba { color: rgba(153, 180, 191, 1); }
+.Viagem-4-rgba { color: rgba(216, 182, 13, 1); }
+.Viagem-5-rgba { color: rgba(191, 141, 47, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Viagem-1-hsla { color: hsla(213, 43, 31, 1); }
+.Viagem-2-hsla { color: hsla(213, 40, 24, 1); }
+.Viagem-3-hsla { color: hsla(196, 23, 67, 1); }
+.Viagem-4-hsla { color: hsla(50, 88, 45, 1); }
+.Viagem-5-hsla { color: hsla(39, 60, 46, 1); }
+
+/*Fontes usadas 
+
+Header	Playfair Display	Serif	
+Nav	    Poppins	            Sans-serif	
+Main	Lora	            Serif	
+Footer	Quicksand	        Sans-serif
+*/
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* element header*/
+
+header {
+    background: linear-gradient(rgb(44, 75, 114, 1), rgba(0,0,0,0.0)),url("../image/imagemCapaHeaderG.jpg");
+    background-position: center center;
+    max-width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav   {
+    font-family: "Playfair Display", serif;
+    color: aliceblue;
+}
+ 
+#imgHeaderViagem {
+    box-shadow: 0 4px 90px  rgba(216, 182, 13, 1);
+    margin: 10px;
+}
+
+#main {
+   background: #99B4BF;
+
+    
+    z-index: -99;
+}
+
+#faq {
+    font-family: "Poppins", sans-serif;
+    color: #253C59;
+    width: 600px;
+    right: 10%;
+    position: absolute;
+}
+
+#sobre {
+    font-family: "Poppins", sans-serif;
+    color: #253C59;
+    width: 600px;
+    left: 5%;
+    position: absolute;
+    margin-top: 50px;
+    border: 5px solid #2b4d73;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 90px rgba(37, 59, 89, 1);
+    text-align: justify;
+    position: absolute;
+    z-index: 5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(0); /* Deixa preto */
+}
+
+#viagens {
+    background: url("../image/image-do-viagens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #253c59;
+}
+section {
+  margin-bottom: px; /* espaçamento entre as seções */
+  padding: 40px 20px; 
+  height: 100vh;  /* espaçamento interno */
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#headerContent {
+       display: flex;
+       flex-grow: 1;
+       flex-wrap: wrap;
+       flex-basis: 200;
+       gap: 20px;
+}
+
+ #imgHeader {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    left: 30px;
+    box-shadow: 0 4px 90px  rgba(216, 182, 13, 1);
+  }
+
+  #textHeader {
+    height: 25%;
+    width: 45%;
+    position: relative;
+    top: 150px;
+    left: 250px;
+  }
+
+  #viagens h2 {
+    text-align: center;
+    width: 100%;
+  }
